@@ -11,6 +11,7 @@ on:
 
 jobs:
   add_to_project:
+    if: ${{ github.event.issue.number != 1 }}
     runs-on: ubuntu-latest
     steps:
       - name: Add inbound issues to Inbound Pipeline project
