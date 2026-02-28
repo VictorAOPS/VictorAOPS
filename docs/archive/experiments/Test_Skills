@@ -1,0 +1,62 @@
+<hr/>
+
+<a id="sec-skills"></a>
+<h2 align="center">Skills</h2>
+
+<p align="center">
+  <sub>Capacidades curadas para <b>Analytics-to-Action</b> en operaciones industriales.</sub>
+</p>
+
+<!-- Skills Cards -->
+<table width="100%" cellpadding="14" cellspacing="0">
+  <tr>
+    <td width="33%" valign="top">
+      <b>Operational Intelligence (BI)</b>
+      <ul>
+        <li>KPI systems (OEE, scrap, downtime)</li>
+        <li>Executive storytelling</li>
+        <li>Actionable drill-down</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <b>Industrial DataOps</b>
+      <ul>
+        <li>OT/IT integration mindset</li>
+        <li>Event + traceability modeling</li>
+        <li>Data quality & governance</li>
+      </ul>
+    </td>
+    <td width="33%" valign="top">
+      <b>Execution Enablement</b>
+      <ul>
+        <li>Evidence capture apps</li>
+        <li>Workflow automation</li>
+        <li>Adoption & change support</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- Tool Stack (visual) -->
+<p align="center"><b>Tool Stack</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,sql,azure,linux,docker,github,githubactions&theme=dark&perline=12" alt="Core stack" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,fastapi,flask,grafana&theme=dark&perline=12" alt="Data platform" />
+</p>
+
+<br/>
+
+<!-- Evidence Signals -->
+<p align="center"><b>Evidence signals</b></p>
+<p align="center">
+  <kbd>Dashboards shipped</kbd>
+  <kbd>Workflows digitized</kbd>
+  <kbd>Audit-ready traceability</kbd>
+  <kbd>Cycle-time reductions</kbd>
+  <kbd>Cross-functional adoption</kbd>
+</p>
