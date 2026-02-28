@@ -910,6 +910,12 @@ I understand the shop floor, the trade-offs, and the discipline required to turn
 </p>
 
 <p align="center">
+  <a href="https://github.com/VictorAOPS/VictorAOPS/issues/1">
+    <img src="https://img.shields.io/badge/Join%20Hub%20Thread-Issue%20%231-6A5CFF?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="Join Hub Thread - Issue 1" />
+  </a>
+</p>
+
+<p align="center">
   <sub>
     <b>What happens next:</b> share context → I propose a path (baseline → model → deploy → adopt) → we align scope.
   </sub>
