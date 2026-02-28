@@ -4,14 +4,14 @@ set -euo pipefail
 # Creates a restorable backup without git history:
 # - backup/repo-no-history/      (full working snapshot without .git/.venv/backup)
 # - backup/project-export/       (project/labels/workflows/secrets metadata, best effort)
-# - backup/VictorOPEX-backup-no-history-<timestamp>.tar.gz
+# - backup/VictorAOPS-backup-no-history-<timestamp>.tar.gz
 #
 # Usage:
 #   bash scripts/create_clean_backup.sh
 #
 # Optional env vars:
-#   OWNER=VictorOPEX
-#   REPO=VictorOPEX/VictorOPEX
+#   OWNER=VictorAOPS
+#   REPO=VictorAOPS/VictorAOPS
 #   PROJECT_NUMBER=3
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -19,16 +19,16 @@ BACKUP_DIR="$ROOT_DIR/backup"
 SNAPSHOT_DIR="$BACKUP_DIR/repo-no-history"
 PROJECT_EXPORT_DIR="$BACKUP_DIR/project-export"
 STAMP="$(date +%F_%H%M%S)"
-ARCHIVE_PATH="$BACKUP_DIR/VictorOPEX-backup-no-history-$STAMP.tar.gz"
+ARCHIVE_PATH="$BACKUP_DIR/VictorAOPS-backup-no-history-$STAMP.tar.gz"
 
-OWNER="${OWNER:-VictorOPEX}"
-REPO="${REPO:-VictorOPEX/VictorOPEX}"
+OWNER="${OWNER:-VictorAOPS}"
+REPO="${REPO:-VictorAOPS/VictorAOPS}"
 PROJECT_NUMBER="${PROJECT_NUMBER:-3}"
 
 echo "[1/5] Reset backup folder structure..."
 mkdir -p "$BACKUP_DIR"
 rm -rf "$SNAPSHOT_DIR" "$PROJECT_EXPORT_DIR"
-find "$BACKUP_DIR" -maxdepth 1 -type f -name 'VictorOPEX-backup-no-history-*.tar.gz' -delete
+find "$BACKUP_DIR" -maxdepth 1 -type f -name 'VictorAOPS-backup-no-history-*.tar.gz' -delete
 rm -f "$BACKUP_DIR/README_BACKUP.txt"
 mkdir -p "$SNAPSHOT_DIR" "$PROJECT_EXPORT_DIR"
 

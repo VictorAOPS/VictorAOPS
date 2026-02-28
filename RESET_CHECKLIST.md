@@ -1,13 +1,13 @@
 # Repo Reset Checklist (No History + CC BY 4.0)
 
-Use this checklist to recreate `VictorOPEX/VictorOPEX` with zero prior GitHub-visible history.
+Use this checklist to recreate `VictorAOPS/VictorAOPS` with zero prior GitHub-visible history.
 
 ## 1) Preflight (must pass)
 
 - [ ] Confirm local backup exists:
   - [ ] `backup/repo-no-history/`
   - [ ] `backup/project-export/`
-  - [ ] `backup/VictorOPEX-backup-no-history-*.tar.gz`
+  - [ ] `backup/VictorAOPS-backup-no-history-*.tar.gz`
 - [ ] Confirm repo snapshot includes:
   - [ ] `.github/workflows/`
   - [ ] `.github/ISSUE_TEMPLATE/`
@@ -17,10 +17,10 @@ Use this checklist to recreate `VictorOPEX/VictorOPEX` with zero prior GitHub-vi
 
 ## 2) Delete and recreate the GitHub repository
 
-- [ ] In GitHub: `VictorOPEX/VictorOPEX` -> `Settings` -> `General` -> `Danger Zone` -> `Delete this repository`
+- [ ] In GitHub: `VictorAOPS/VictorAOPS` -> `Settings` -> `General` -> `Danger Zone` -> `Delete this repository`
 - [ ] Recreate new empty repo with same name:
-  - [ ] Owner: `VictorOPEX`
-  - [ ] Name: `VictorOPEX`
+  - [ ] Owner: `VictorAOPS`
+  - [ ] Name: `VictorAOPS`
   - [ ] Public
   - [ ] Do not initialize with README/LICENSE/.gitignore
 
@@ -30,16 +30,16 @@ Run:
 
 ```bash
 cd /mnt/d/GitHub
-rm -rf VictorOPEX-clean
-cp -r VictorOPEX/backup/repo-no-history VictorOPEX-clean
-cd VictorOPEX-clean
+rm -rf VictorAOPS-clean
+cp -r VictorAOPS/backup/repo-no-history VictorAOPS-clean
+cd VictorAOPS-clean
 rm -rf .git
 
 git init
 git branch -M main
 git add -A
 git commit -m "Initial clean import (no prior history)"
-git remote add origin https://github.com/VictorOPEX/VictorOPEX.git
+git remote add origin https://github.com/VictorAOPS/VictorAOPS.git
 git push -u origin main
 ```
 
@@ -91,7 +91,7 @@ Validation:
 - [ ] Link repo to Project v2:
 
 ```bash
-gh project link 3 --owner VictorOPEX --repo VictorOPEX/VictorOPEX
+gh project link 3 --owner VictorAOPS --repo VictorAOPS/VictorAOPS
 ```
 
 - [ ] Verify `Pipeline` field exists with:

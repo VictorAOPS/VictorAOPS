@@ -23,11 +23,11 @@ Bloque reutilizable para `README.md`.
   </p>
 
   <p align="center">
-    <img width="76%" src="https://github-readme-streak-stats.herokuapp.com/?user=VictorOPEX&theme=dark&background=0D1117&ring=00E5FF&currStreakLabel=7DF9FF&sideLabels=C9CED6&dates=8B949E&stroke=1F6FEB&fire=FF3CAC&hide_border=true" alt="Victor Dector streak stats neon" />
+    <img width="76%" src="https://github-readme-streak-stats.herokuapp.com/?user=VictorAOPS&theme=dark&background=0D1117&ring=00E5FF&currStreakLabel=7DF9FF&sideLabels=C9CED6&dates=8B949E&stroke=1F6FEB&fire=FF3CAC&hide_border=true" alt="Victor Dector streak stats neon" />
   </p>
 
   <p align="center">
-    <img width="76%" src="https://github-readme-activity-graph.vercel.app/graph?username=VictorOPEX&bg_color=0d1117&color=7DF9FF&line=00E5FF&point=FF3CAC&area=true&area_color=102B46&hide_border=true" alt="Victor Dector contribution graph neon" />
+    <img width="76%" src="https://github-readme-activity-graph.vercel.app/graph?username=VictorAOPS&bg_color=0d1117&color=7DF9FF&line=00E5FF&point=FF3CAC&area=true&area_color=102B46&hide_border=true" alt="Victor Dector contribution graph neon" />
   </p>
 
   <p align="center">
@@ -58,11 +58,11 @@ Bloque reutilizable para `README.md`.
   </p>
 
   <p align="center">
-    <img width="76%" src="https://github-readme-streak-stats.herokuapp.com/?user=VictorOPEX&theme=dark&background=0D1117&ring=00E5FF&currStreakLabel=7DF9FF&sideLabels=C9CED6&dates=8B949E&stroke=1F6FEB&fire=FF3CAC&hide_border=true" alt="Victor Dector streak stats neon" />
+    <img width="76%" src="https://github-readme-streak-stats.herokuapp.com/?user=VictorAOPS&theme=dark&background=0D1117&ring=00E5FF&currStreakLabel=7DF9FF&sideLabels=C9CED6&dates=8B949E&stroke=1F6FEB&fire=FF3CAC&hide_border=true" alt="Victor Dector streak stats neon" />
   </p>
 
   <p align="center">
-    <img width="76%" src="https://github-readme-activity-graph.vercel.app/graph?username=VictorOPEX&bg_color=0d1117&color=7DF9FF&line=00E5FF&point=FF3CAC&area=true&area_color=102B46&hide_border=true" alt="Victor Dector contribution graph neon" />
+    <img width="76%" src="https://github-readme-activity-graph.vercel.app/graph?username=VictorAOPS&bg_color=0d1117&color=7DF9FF&line=00E5FF&point=FF3CAC&area=true&area_color=102B46&hide_border=true" alt="Victor Dector contribution graph neon" />
   </p>
 
   <p align="center">

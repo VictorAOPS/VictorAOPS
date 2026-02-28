@@ -6,13 +6,13 @@ set -euo pipefail
 # It copies from backup/repo-no-history and initializes a fresh git history with 1 commit.
 #
 # Usage:
-#   bash scripts/prepare_clean_restore.sh /absolute/path/to/VictorOPEX-clean
+#   bash scripts/prepare_clean_restore.sh /absolute/path/to/VictorAOPS-clean
 #
 # Example:
-#   bash scripts/prepare_clean_restore.sh /mnt/d/GitHub/VictorOPEX-clean
+#   bash scripts/prepare_clean_restore.sh /mnt/d/GitHub/VictorAOPS-clean
 #
 # Then inside target folder:
-#   git remote add origin https://github.com/VictorOPEX/VictorOPEX.git
+#   git remote add origin https://github.com/VictorAOPS/VictorAOPS.git
 #   git push -u origin main
 
 if [[ "${1:-}" == "" ]]; then
@@ -51,5 +51,5 @@ echo "[4/4] Done."
 echo
 echo "Next commands:"
 echo "  cd $TARGET_DIR"
-echo "  git remote add origin https://github.com/VictorOPEX/VictorOPEX.git"
+echo "  git remote add origin https://github.com/VictorAOPS/VictorAOPS.git"
 echo "  git push -u origin main"

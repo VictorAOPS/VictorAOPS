@@ -3,75 +3,75 @@
 Galeria de modelos para seccion de actividad en `README.md`.
 Todos son compatibles con GitHub README (sin JS/CSS custom).
 
-Usuario de ejemplo: `VictorOPEX`
+Usuario de ejemplo: `VictorAOPS`
 
 ---
 
 ## 3) Stats Card (Stable Alternative)
 
-![Stats Card](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=VictorOPEX&theme=github_dark)
+![Stats Card](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=VictorAOPS&theme=github_dark)
 
 ```md
-![Stats Card](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=VictorOPEX&theme=github_dark)
+![Stats Card](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=VictorAOPS&theme=github_dark)
 ```
 
 
 ```md
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=VictorOPEX&theme=github_dark)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=VictorAOPS&theme=github_dark)
 ```
 
 ## 5) Profile Summary Cards
 
-![Summary Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VictorOPEX&theme=tokyonight)
+![Summary Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VictorAOPS&theme=tokyonight)
 
 ```md
-![Summary Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VictorOPEX&theme=tokyonight)
+![Summary Profile](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VictorAOPS&theme=tokyonight)
 ```
 
 ```md
-![Most commit language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=VictorOPEX&theme=tokyonight)
+![Most commit language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=VictorAOPS&theme=tokyonight)
 ```
 
 ## 8) Summary Cards - Productive Time
 
-![Productive time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=VictorOPEX&theme=github_dark&utcOffset=8)
+![Productive time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=VictorAOPS&theme=github_dark&utcOffset=8)
 
 ```md
-![Productive time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=VictorOPEX&theme=github_dark&utcOffset=8)
+![Productive time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=VictorAOPS&theme=github_dark&utcOffset=8)
 ```
 
 ## 9) Trophies
 
-![Activity Graph Alternative](https://github-readme-activity-graph.vercel.app/graph?username=VictorOPEX&bg_color=0d1117&color=7DF9FF&line=00E5FF&point=FF3CAC&area=true&area_color=102B46&hide_border=true)
+![Activity Graph Alternative](https://github-readme-activity-graph.vercel.app/graph?username=VictorAOPS&bg_color=0d1117&color=7DF9FF&line=00E5FF&point=FF3CAC&area=true&area_color=102B46&hide_border=true)
 
 ```md
-![Activity Graph Alternative](https://github-readme-activity-graph.vercel.app/graph?username=VictorOPEX&bg_color=0d1117&color=7DF9FF&line=00E5FF&point=FF3CAC&area=true&area_color=102B46&hide_border=true)
+![Activity Graph Alternative](https://github-readme-activity-graph.vercel.app/graph?username=VictorAOPS&bg_color=0d1117&color=7DF9FF&line=00E5FF&point=FF3CAC&area=true&area_color=102B46&hide_border=true)
 ```
 
 ```md
 # Original (currently unstable: returns 503)
-![Trophy](https://github-profile-trophy.vercel.app/?username=VictorOPEX&theme=algolia&no-frame=true&row=1&column=6)
+![Trophy](https://github-profile-trophy.vercel.app/?username=VictorAOPS&theme=algolia&no-frame=true&row=1&column=6)
 ```
 
 ## 10) Metrics (Advanced Dashboard)
 
-![Summary Profile Alternative](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VictorOPEX&theme=github_dark)
+![Summary Profile Alternative](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VictorAOPS&theme=github_dark)
 
 ```md
-![Summary Profile Alternative](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VictorOPEX&theme=github_dark)
+![Summary Profile Alternative](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VictorAOPS&theme=github_dark)
 ```
 
 ```md
 # Original (currently unstable: returns 500)
-![Metrics](https://metrics.lecoq.io/VictorOPEX?template=classic&base.header=0&base.activity=1&base.community=1&base.repositories=1&base.metadata=0)
+![Metrics](https://metrics.lecoq.io/VictorAOPS?template=classic&base.header=0&base.activity=1&base.community=1&base.repositories=1&base.metadata=0)
 ```
 
 ## 11) Contribution Heatmap (Alternative)
 
-![Heatmap](https://ghchart.rshah.org/00E5FF/VictorOPEX)
+![Heatmap](https://ghchart.rshah.org/00E5FF/VictorAOPS)
 
 ```md
-![Heatmap](https://ghchart.rshah.org/00E5FF/VictorOPEX)
+![Heatmap](https://ghchart.rshah.org/00E5FF/VictorAOPS)
 ```
 
 ## 12) Neon Style (Current-like)
@@ -81,10 +81,10 @@ Usuario de ejemplo: `VictorOPEX`
   <img src="https://img.shields.io/badge/THEME-Tech_Gradient-FF3CAC?style=for-the-badge&logo=visualstudiocode&logoColor=FFFFFF" alt="Theme Tech Gradient" />
 </p>
 <p align="center">
-  <img width="76%" src="https://github-readme-streak-stats.herokuapp.com/?user=VictorOPEX&theme=dark&background=0D1117&ring=00E5FF&currStreakLabel=7DF9FF&sideLabels=C9CED6&dates=8B949E&stroke=1F6FEB&fire=FF3CAC&hide_border=true" alt="streak neon" />
+  <img width="76%" src="https://github-readme-streak-stats.herokuapp.com/?user=VictorAOPS&theme=dark&background=0D1117&ring=00E5FF&currStreakLabel=7DF9FF&sideLabels=C9CED6&dates=8B949E&stroke=1F6FEB&fire=FF3CAC&hide_border=true" alt="streak neon" />
 </p>
 <p align="center">
-  <img width="76%" src="https://github-readme-activity-graph.vercel.app/graph?username=VictorOPEX&bg_color=0d1117&color=7DF9FF&line=00E5FF&point=FF3CAC&area=true&area_color=102B46&hide_border=true" alt="graph neon" />
+  <img width="76%" src="https://github-readme-activity-graph.vercel.app/graph?username=VictorAOPS&bg_color=0d1117&color=7DF9FF&line=00E5FF&point=FF3CAC&area=true&area_color=102B46&hide_border=true" alt="graph neon" />
 </p>
 
 ---

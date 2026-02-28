@@ -25,7 +25,7 @@ python scripts/gen_icons_carousel.py
 Creates a complete local backup suitable for clean repo recreation:
 - `backup/repo-no-history/` (all files except `.git`, `.venv`, `backup/`)
 - `backup/project-export/` (project fields/items + labels/workflows/secrets list)
-- `backup/VictorOPEX-backup-no-history-<timestamp>.tar.gz`
+- `backup/VictorAOPS-backup-no-history-<timestamp>.tar.gz`
 
 Run:
 ```bash
@@ -34,7 +34,7 @@ bash scripts/create_clean_backup.sh
 
 Optional environment variables:
 ```bash
-OWNER=VictorOPEX REPO=VictorOPEX/VictorOPEX PROJECT_NUMBER=3 bash scripts/create_clean_backup.sh
+OWNER=VictorAOPS REPO=VictorAOPS/VictorAOPS PROJECT_NUMBER=3 bash scripts/create_clean_backup.sh
 ```
 
 ## Prepare clean restore (single commit, no old history)
@@ -43,12 +43,12 @@ Builds a fresh folder from `backup/repo-no-history/`, initializes git, and creat
 
 Run:
 ```bash
-bash scripts/prepare_clean_restore.sh /mnt/d/GitHub/VictorOPEX-clean
+bash scripts/prepare_clean_restore.sh /mnt/d/GitHub/VictorAOPS-clean
 ```
 
 Then push to a newly created empty repo:
 ```bash
-cd /mnt/d/GitHub/VictorOPEX-clean
-git remote add origin https://github.com/VictorOPEX/VictorOPEX.git
+cd /mnt/d/GitHub/VictorAOPS-clean
+git remote add origin https://github.com/VictorAOPS/VictorAOPS.git
 git push -u origin main
 ```
