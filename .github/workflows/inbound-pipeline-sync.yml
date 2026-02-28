@@ -3,7 +3,7 @@ name: inbound-pipeline-sync
 # Required setup:
 # 1) Create a PAT with scopes: repo, project
 # 2) Save as repository secret: ADD_TO_PROJECT_PAT
-# 3) Project URL expected: https://github.com/users/VictorOPEX/projects/3
+# 3) Project URL expected: https://github.com/users/VictorAOPS/projects/1
 
 on:
   issues:
@@ -18,9 +18,9 @@ jobs:
         with:
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
           script: |
-            const owner = "VictorOPEX";
+            const owner = "VictorAOPS";
             const repo = context.repo.repo;
-            const projectNumber = 3;
+            const projectNumber = 1;
             const issueNumber = context.issue.number;
 
             const labels = (context.payload.issue.labels || []).map((l) => l.name.toLowerCase());
