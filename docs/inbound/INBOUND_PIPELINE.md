@@ -1,7 +1,21 @@
 # Inbound Pipeline (GitHub Project v2)
 
 Project URL:
-- <https://github.com/users/VictorAOPS/projects/3>
+- <https://github.com/users/VictorAOPS/projects/1>
+
+## Mission Fit
+
+This pipeline operationalizes the hub mission:
+- Industrial Intelligence
+- Data-Driven OpEx
+- Ethical, human-centered execution
+
+## Core Intake Flow
+
+1. README CTA -> `issues/new` (prefill or form)
+2. Issue is created with labels (`intent/inbound` or `request/project`)
+3. `inbound-auto-add-to-project` adds the issue to Project v2
+4. `inbound-pipeline-sync` updates `Pipeline` based on labels/state
 
 ## Pipeline Stages
 
@@ -13,63 +27,65 @@ Project URL:
 
 ## Stage Definitions
 
-- New: Newly created inbound request, pending initial triage.
-- Qualified: Meets minimum intake criteria and is actionable.
-- In Progress: Active collaboration or implementation work has started.
-- Waiting: Blocked by external dependency, missing info, or approval.
-- Closed/Won: Completed engagement or successfully closed opportunity.
+- New: New inbound request, pending triage.
+- Qualified: Intake has enough context to start.
+- In Progress: Active collaboration/execution.
+- Waiting: External dependency or missing input.
+- Closed/Won: Engagement completed or outcome closed.
 
-## Qualified Criteria (Minimum)
+## SLA + Qualification Gate
 
-An issue is considered **Qualified** when it includes:
-- Goal
-- Context
-- Target KPI
-- Constraints and available data
+- SLA: first response target in **24-48h**.
+- Gate to move to **Qualified** (all required):
+  - Goal
+  - Context
+  - Target KPI
+  - Constraints and available data
 
-## Service Level Agreement (SLA)
+## Labels (Canonical)
 
-- First response target for inbound issues: **24-48 hours**.
-- If a thread is blocked, set `waiting` and define the next required input.
+- `source/*` -> traffic origin (README, LinkedIn, other)
+- `intent/*` -> collaboration intent
+- `request/*` -> request type (project/role/other)
+- `domain/*` -> technical domain
+- `outcome/*` -> close reason / conversion result
 
-## Label-Driven Pipeline Automation
+Operational stage labels:
+- `qualified`
+- `in_progress`
+- `waiting`
 
-Pipeline is synchronized automatically from labels:
-- `intent/inbound` or `request/project` -> `New`
+## Pipeline Sync Rules (Automation)
+
+- `intent/inbound` OR `request/project` -> `New`
 - `qualified` -> `Qualified`
 - `in_progress` -> `In Progress`
 - `waiting` -> `Waiting`
-- Any outcome label or closed issue -> `Closed/Won`
+- Issue closed OR any `outcome/*` label -> `Closed/Won`
 
-Outcome labels:
-- `outcome/won-project`
-- `outcome/won-collab`
-- `outcome/won-interview`
-- `outcome/closed-no-fit`
-- `outcome/closed-no-response`
-- `outcome/closed-later`
-
-Workflow file:
+Workflows:
+- `.github/workflows/inbound-auto-add-to-project.yml`
 - `.github/workflows/inbound-pipeline-sync.yml`
+
+## Project Fields (Recommended)
+
+Keep `Pipeline` as the primary status field, plus:
+- `Type`: `Collab`, `Research`, `Project`, `Role`, `Feedback`
+- `Theme`: `DataOps`, `Smart Mfg`, `Applied AI`, `OpEx`, `Ethics/ESG`
+- `Value`: `High`, `Medium`, `Low`
+- `Urgency`: `Now`, `Soon`, `Later`
+- `Next Step Date` (date)
+- `Outcome`: `Won Project`, `Won Collab`, `Won Interview`, `No Fit`, `No Response`, `Later`
+
+## Project Views (Recommended)
+
+- `Pipeline` (board grouped by `Pipeline`)
+- `By Theme` (table grouped by `Theme`)
+- `Waiting` (filter `Pipeline=Waiting`, sort `Next Step Date`)
+- `High Value` (filter `Value=High`)
+- `Closed Outcomes` (filter `Pipeline=Closed/Won`, group by `Outcome`)
 
 ## NDA-Friendly Policy
 
-- Public issue threads remain high-level (problem framing, approach, expected outcomes).
-- Sensitive artifacts, implementation specifics, and proprietary details are shared privately under NDA when required.
-
-## Auto-Add Rule
-
-Issues are auto-added to the project when they include either label:
-- `intent/inbound`
-- `request/project`
-
-This is implemented by:
-- `.github/workflows/inbound-auto-add-to-project.yml`
-
-## Suggested Project View (Manual UI Setup)
-
-Create this view in GitHub Projects UI:
-- **Closed/Won by outcome**
-  - Filter: `Pipeline = Closed/Won`
-  - Group by: `Labels`
-  - Sort: `Updated` descending
+- Public issues stay high-level (problem framing, expected outcomes, next steps).
+- Sensitive architecture/data details are handled privately under NDA.
